@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import './global.css';
+@import './header.css';
+@import './intro.css';
+@import './experience.css';
+@import './formation.css';
+@import './footer.css';
+
+:root {
+  --colbka: #f5f5f5;
+  --col01: #141414;
+  --col02: #525252;
+  --col03: #e0e0e0;
+  --col04: #b6f829;
+  --col05: #67dd0a;
+  --col06: #ffffff;
+  --col07: #000;
+  --col08: #a3a3a3;
+  --col09: #8f8f8f;
+}
