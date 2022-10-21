@@ -50,6 +50,10 @@
   header {
     background: var(--col06);
   }
+
+  .header-menu {
+    background: var(--col06);
+  }
   
   .header p {
     color: var(--col06);
