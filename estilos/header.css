@@ -27,10 +27,14 @@
     flex-direction: column;
     gap: 40px;
     padding: 20px;
+    
   }
 
   .header a {
     background: var(--colbka);
     border-radius: 4px;
+  }
+  .header-menu {
+    row-gap: 30px;
   }
 }
