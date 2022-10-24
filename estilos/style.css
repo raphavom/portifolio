@@ -19,4 +19,37 @@
   --col08: #a3a3a3;
   --col09: #8f8f8f;
   --col10: #ccc;
+  --logo: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --colbka: #000000;
+    --colhed01: #7b7b7b;
+    --colhed02: #7b7b7b;
+    --col01: #141414;
+    --col02: #525252;
+    --col03: #e0e0e0;
+    --col04: #b6f829;
+    --col05: #67dd0a;
+    --col06: #ffffff;
+    --col07: #000;
+    --col08: #a3a3a3;
+    --col09: #8f8f8f;
+    --col10: #ccc;
+    --logo: #ffffff;
+  }
+
+  body {
+    color: var(--col01);
+    background: var(--col01);
+  }
+
+  .introducao h1 {
+    color: var(--colhed02); 
+  }
+
+  .experiencia , .empresa-titulo h3 {
+    color: var(--col09);
+  }
 }

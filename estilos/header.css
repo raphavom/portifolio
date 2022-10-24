@@ -19,14 +19,14 @@
   line-height: 1.3;
   padding: 10px 20px;
   text-decoration: none;
-  color: var(--col01);
+  color: var(--colhed02) !important;
 }
 
 .header p {
   font-family: 'Satisfy', Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 4em;
-  color: var(--col01);
+  color: var(--colhed02);
 }
 
 @media (max-width: 800px) {
@@ -38,7 +38,7 @@
   }
 
   .header a {
-    background: var(--colbka);
+    background: var(--colhed01) !important;
     border-radius: 4px;
   }
   .header-menu {
@@ -46,17 +46,3 @@
   }
 }
 
-@media screen and (prefers-color-scheme: dark) {
-  header {
-    background: var(--col06);
-  }
-
-  header .header-menu {
-    background: var(--col06);
-  }
-  
-  .header p {
-    color: var(--col06);
-  }
-
-}
